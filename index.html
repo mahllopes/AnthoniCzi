@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anthoni Czizeweski</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+
+
+    <!-- HEADER -->
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo">-</td>
+                <td id="navigation">
+                    <a href="#work">projects</a>
+                    <a href="#bio">about</a>
+                    <a href="#contact">contact</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+
+    <!-- APRESENTAÇÃO -->
+    <table id="top_part">
+        <tr>
+            <td id="about" class="animated slideInLeft" style="animation-delay:1s;">
+                <h1>I'm Anthoni Czizeweski</h1>
+                <button class="btn_one">Producer</button><br>
+
+            </td>
+            <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;">
+            <!-- <img src="imagens/toni.jpg" width="400px" height="400px"> -->
+            </td>
+        </tr>
+    </table>
+
+
+    <!-- PROJETOS -->
+    <div id="work">
+        <h1>Projects</h1>
+        <div id="photos">
+            <a id="openPopup1">
+                <img src="https://images.unsplash.com/photo-1612868921943-c203eb36f05c?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                <h3>Project 1</h3>
+            </a>
+
+            <a id="openPopup2">
+                <img src="https://images.unsplash.com/photo-1612868921943-c203eb36f05c?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                <h3>Project 2</h3>
+            </a>
+        
+            <a id="openPopup3">
+                <img src="https://images.unsplash.com/photo-1612868921943-c203eb36f05c?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                <h3>Project 3</h3>
+            </a>
+
+            <a id="openPopup4">
+                <img src="https://images.unsplash.com/photo-1612868921943-c203eb36f05c?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                <h3>Project 4</h3>
+            </a>
+
+            <a id="openPopup5">
+                <img src="https://images.unsplash.com/photo-1612868921943-c203eb36f05c?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                <h3>Project 5</h3>
+            </a>
+        </div>
+
+
+<!-- POP-UP'S -->
+    <div id="popup1" class="popup">
+        <div class="popup-content">
+            <span class="close" id="closePopup1">&times;</span>
+        <br>
+            <audio controls>
+                <source src="audios/audio1.mpeg" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3 style="color: rgb(153,87,216);">Project 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                anim id est laborum.</p>
+
+        </div>
+    </div>
+
+    <div id="popup2" class="popup">
+        <div class="popup-content">
+            <span class="close" id="closePopup2">&times;</span>
+        <br>
+            <audio controls>
+                <source src="caminho/do/arquivo-de-audio.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3 style="color: rgb(153,87,216);">Project 2</h3>
+            <p>Texto.</p>
+
+        </div>
+    </div>
+
+    <div id="popup3" class="popup">
+        <div class="popup-content">
+            <span class="close" id="closePopup3">&times;</span>
+        <br>
+            <audio controls>
+                <source src="caminho/do/arquivo-de-audio.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3 style="color: rgb(153,87,216);">Project 3</h3>
+            <p>Texto.</p>
+
+        </div>
+    </div>
+
+    <div id="popup4" class="popup">
+        <div class="popup-content">
+            <span class="close" id="closePopup4">&times;</span>
+        <br>
+            <audio controls>
+                <source src="caminho/do/arquivo-de-audio.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+
+            </audio>
+
+            <h3 style="color: rgb(153,87,216);">Project 4</h3>
+            <p>Texto.</p>
+
+        </div>
+    </div>
+
+    <div id="popup5" class="popup">
+        <div class="popup-content">
+            <span class="close" id="closePopup5">&times;</span>
+        <br>
+            <audio controls>
+                <source src="caminho/do/arquivo-de-audio.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+
+            </audio>
+
+            <h3 style="color: rgb(153,87,216);">Project 5</h3>
+            <p >Texto.</p>
+
+        </div>
+    </div>
+
+
+<!-- BIO -->
+    </div>
+    <div id="bio">
+        <h1>About</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+        </p>
+    </div>
+
+
+    <!-- CONTATO -->
+    <div id="contact">
+        <h1>Contact</h1>
+        <table>
+            <tr>
+                <td>
+                    <div id="inner_div">
+                        <table id="inner_table">
+                            <tr>
+                                <td><i class="fas fa-phone"></i> &nbsp; +55 54 8438-3083</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-at"></i> &nbsp; anthoniczizeweski@gmail.com</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <a class="social" href="https://www.facebook.com"><i
+                                            class="fab fa-facebook"></i></a>
+                                    <a class="social" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                                    <a class="social" href="https://www.instagram.com"><i
+                                            class="fab fa-instagram"></i></a>
+                                    <a class="social" href="https://www.linkedin.com"><i
+                                            class="fab fa-linkedin"></i></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+
+    </div>
+
+    <script src="js/functions.js" type="text/javascript"></script>
+</body>
+
+</html>
